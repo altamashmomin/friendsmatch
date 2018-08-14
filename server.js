@@ -6,7 +6,10 @@ var path = require("path");
 // set up express
 var app = express();
 var PORT = process.env.PORT || 8080;
+//var PORT = 3306;
 
+//static?????
+//app.use(express.static(path.join(__dirname, './app/public')));
 
 // Add middleware
 app.use(bodyParser.json());
