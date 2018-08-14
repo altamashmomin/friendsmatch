@@ -10,7 +10,7 @@ module.exports = function(app) {
 	});
 
     // survey
-	app.get("/survey.html", function(req, res) {
+	app.get("/survey", function(req, res) {
 		res.sendFile(path.join(__dirname, "../public/survey.html"));
 
 	});
